@@ -1,0 +1,36 @@
+{
+  "default_model": "Gemini",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "models": {
+    "O3": {
+      "model_id": "openai/o3-pro",
+      "max_tokens": 8192,
+      "temperature": 0.3,
+      "supports_images": true
+    },
+    "Gemini": {
+      "model_id": "google/gemini-2.5-pro-preview",
+      "max_tokens": 8192,
+      "temperature": 0.3,
+      "supports_images": true
+    },
+    "Grok": {
+      "model_id": "x-ai/grok-3-beta",
+      "max_tokens": 8192,
+      "temperature": 0.3,
+      "supports_images": false
+    },
+    "DeepSeek": {
+      "model_id": "deepseek/deepseek-r1-0528",
+      "max_tokens": 8192,
+      "temperature": 0.3,
+      "supports_images": false
+    },
+    "Opus": {
+      "model_id": "anthropic/claude-opus-4",
+      "max_tokens": 8192,
+      "temperature": 0.3,
+      "supports_images": true
+    }
+  }
+}
